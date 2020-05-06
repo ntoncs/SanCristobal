@@ -1,0 +1,500 @@
+body {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #334F5A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(../fondos/b1.png);
+    background-repeat: repeat-y;
+    background-position: center;
+
+}
+
+/*Barra navegar*/
+nav {
+    position: fixed;
+    top: 0px;
+    left: .25em;
+    right: .25em;
+    background-color: #334F5A;
+    margin: auto;
+    z-index: 50;
+    width: 1000px;
+    text-align: center;
+}
+
+nav ul li {
+
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20.25px;
+    border-right: solid #49c9d4 2px;
+    border-left: solid #49c9d4 2px;
+    margin-left: -3px;
+    margin-right: -3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #49c9d4;
+   
+}
+a:hover {
+    color: white;
+    text-decoration: underline white;
+
+}
+
+:target {
+    padding-top: 100px;
+    
+}
+
+/*Inicio*/
+header {
+
+    width: 1000px;
+    margin: auto;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url(../fondos/escudo.png);
+    background-repeat: no-repeat;
+    background-position: 22% 50%;
+    margin-top: 0px;
+}
+
+#inicio:target {
+    padding-top: 90px;
+    margin-top: -90px;
+}
+
+#inicio {
+
+    margin-bottom: -30px;
+}
+
+/*parrafo*/
+header p {
+    border-top: white solid 3px;
+    display: inline-block;
+    font-size: 26px;
+    width: 420px;
+    padding-top: 10px;
+
+
+}
+
+.p1 {
+
+    color: white;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 860px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    padding-right: 70px;
+    padding-left: 70px;
+
+}
+
+/*historia*/
+#historia {
+    font-size: 46px;
+    color: #334F5A;
+    width: 360px;
+    border-bottom: solid #49c9d4 3px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 150px;
+    text-align: center;
+    position: relative;
+}
+
+#postal {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -150px;
+    width: 1000px;
+}
+
+/*fondo debajo del texto de breve historia*/
+#fondo1 {
+
+    background-color: white;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    width: 1000px;
+    font-size: 20px;
+    color: #334F5A;
+    overflow: hidden;
+
+
+}
+
+/* flotar los parrafos derecha e izquierda de breve historia*/
+#fondo1 #bhi {
+    float: left;
+    width: 385px;
+    padding-left: 70px;
+    padding-right: 20px;
+    margin: 0px;
+    text-align: justify;
+}
+
+#fondo1 #bhd {
+    width: 385px;
+    float: right;
+    vertical-align: top;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 0px;
+    text-align: justify;
+}
+
+/*Turismo*/
+/*fondo*/
+#fondo2 {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -280px;
+    background: url(../fondos/f2a.png) top no-repeat,
+                    url(../fondos/f2b.png) bottom no-repeat, white;
+    padding-bottom: 150px;    
+}
+
+/*titulo*/
+#turismo {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 32px;
+    color: #49c9d4;
+    margin-bottom: -5px;
+}
+
+/*imagen turismo*/
+#imt {
+    width: 1000px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: #334F5A;
+   
+}
+#imta{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*parrafo turismo*/
+#pt {
+    color: white;
+    text-align: justify;
+    margin-top: -100px;
+    margin-bottom: 30px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 0px;
+    font-size: 17px;
+    background-color: #334F5A;
+    
+}
+
+/*Fondo debajo de gastronomia*/
+#fondo3 {
+    background-color: white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    color: #334F5A;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    overflow: hidden;
+  /*  height: 1200px;*/
+}
+
+/*titulo*/
+#gastronomia {
+
+    display: inline-block;
+    margin-left: 285px;
+    margin-top: -10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 34px;
+    color: #334F5A;
+    border: #334F5A solid 4px;
+}
+#gastronomia:target {
+    padding-top: 50px;
+    
+}
+
+/*parrafos*/
+h3 {
+    font-size: 22px;
+    text-transform: capitalize;
+    padding-left: 70px;
+    display: inline-block;
+    width: 500px;
+}
+
+#pg1 {
+    font-size: 20px;
+    width: 500px;
+    text-align: justify;
+    padding-left: 70px;
+}
+
+#pg2 {
+    font-size: 20px;
+    width: 860px;
+    text-align: justify;
+    padding-left: 70px;
+    margin-top: -10px;
+}
+
+#pg3 {
+    font-size: 20px;
+    width: 500px;
+    text-align: justify;
+    display: block;
+    padding-right: 70px;
+    margin-top: -10px;
+    float: right;
+}
+
+/*imagen 1*/
+#ig1 {
+    padding-right: 70px;
+    padding-top: 40px;
+    float: right;
+}
+
+/*imagen2*/
+#ig2 {
+    padding-left: 70px;
+    padding-top: 50px;
+    float: left;
+}
+
+/*fondo feria de san sebastian*/
+#fondo4 {
+    background-image: url(../fondos/fondo3.png);
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 20px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+      
+   /* position: relative;*/
+   /* top: -500px;*/
+   /* z-index: 5;*/
+}
+
+/*titulo*/
+#fiss {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 37px;
+    color: #49c9d4;
+}
+
+#fiss:target {
+    padding-top: 150px;
+    
+}
+
+/*parrafos*/
+#fp1 {
+    width: 600px;
+    padding-left: 70px;
+    text-align: justify;
+}
+
+#fp2 {
+    width: 500px;
+    text-align: justify;
+    padding-right: 70px;
+     float: right;
+  }
+
+.fp3 {
+    width: 860px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-right: 70px;
+    padding-left: 70px;
+    text-align: justify;
+    position: relative;
+    margin-top: 0px;
+}
+
+#te {
+    font-size: 47px;
+    text-align: right;
+    padding-right: 70px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+
+/*imagenes*/
+#if1 {
+    float: right;
+    padding-right: 70px;
+}
+
+#youtube {
+    padding-top: 55px;
+    padding-left: 70px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.aso {
+    width: 1000px;
+}
+.aso1 {
+  
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+ }
+
+#if2 {
+    padding-left: 70px;
+    display: inline-block;
+}
+
+#if3 {
+    padding-right: 70px;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+/*mapa*/
+#mapa {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*footer*/
+footer {
+    background-color: #49c9d4;
+    width: 1000px;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+   
+}
+
+#c1 {
+    float: left;
+}
+
+#foto {
+ 
+    float: left;
+    margin-top: 10px;
+}
+
+#fuente {
+    background-color: #334F5A;
+    color: white;
+    width: 190px;
+    height: 402px;
+    float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+    vertical-align: top;
+    font-size: 25px;
+    text-align: left;
+}
+
+/*iconos de la lista*/
+footer ul li {
+    list-style-type: square;
+}
+
+footer ul li:hover {
+    list-style-type: square;
+    color: #49c9d4;
+}
+
+/*formatos de enlace*/
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #49c9d4;
+
+}
+
+/* datos */
+#nombre {
+    font-size: 40px;
+    padding-left: 10px;
+    color: #334F5A;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#correo a{
+    font-size: 19px;
+    color: rgb(57, 66, 70);
+    padding-left: 50px;
+    margin-top: -20px;
+    text-decoration: none;
+}
+
+.contacto {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(57, 66, 70);
+}
+
+/*redes*/
+#caja {
+    width: 300px;
+}
+
+#tw {
+    display: inline-block;
+    padding-left: 95px;
+}
+
+#ig {
+    display: inline-block;
+    margin-left: 20px;
+    padding-right: 70px;
+}
+
+#contacto:target {
+    padding-top: 0px;
+}
+
+/*Strong y em*/
+em,
+strong {
+
+    font-style: normal;
+    font-weight: normal;
+}

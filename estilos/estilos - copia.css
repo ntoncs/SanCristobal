@@ -1,0 +1,483 @@
+body {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #334F5A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(../fondos/b1.png);
+    background-repeat: repeat-y;
+    background-position: center;
+
+}
+
+/*Barra navegar*/
+nav {
+    position: fixed;
+    top: 0px;
+    left: .25em;
+    right: .25em;
+    background-color: #334F5A;
+    height: 50px;
+    margin: auto;
+    width: 2000px;
+    z-index: 50;
+    width: 1000px;
+}
+
+nav ul li {
+
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20.25px;
+
+    border-right: solid #49c9d4 2px;
+    border-left: solid #49c9d4 2px;
+    margin-left: -3px;
+    margin-right: -3px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #49c9d4;
+}
+
+a:hover {
+    color: white;
+}
+
+:target {
+    padding-top: 100px;
+    position: relative;
+}
+
+/*Inicio*/
+header {
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url(../fondos/escudo.png);
+    background-repeat: no-repeat;
+    background-position: 22% 50%;
+    margin-top: 0px;
+}
+
+#inicio:target {
+    padding-top: 90px;
+    margin-top: -90px;
+}
+
+#inicio {
+    position: relative;
+    margin-bottom: -30px;
+}
+
+/*parrafo*/
+header p {
+    border-top: white solid 3px;
+    display: inline-block;
+    font-size: 26px;
+    width: 420px;
+    padding-top: 10px;
+
+}
+
+.p1 {
+    color: white;
+    text-align: justify;
+    margin: auto;
+    width: 860px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+    height: 620px;
+    background-image: url(../fondos/fondo1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    z-index: 3;
+    margin-top: -30px;
+}
+
+/*historia*/
+#historia {
+    font-size: 46px;
+    color: #334F5A;
+    width: 360px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    border-bottom: solid #49c9d4 3px;
+}
+
+#postal {
+    margin: auto;
+    width: 1000px;
+    position: relative;
+    top: -220px;
+    z-index: 1;
+}
+
+/*fondo debajo del texto de breve historia*/
+#fondo1 {
+    background-color: white;
+    position: relative;
+    margin-top: -230px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    font-size: 20px;
+    color: #334F5A;
+    height: 600px;
+}
+
+/* flotar los parrafos derecha e izquierda de breve historia*/
+#bhi {
+
+    width: 385px;
+    display: inline-block;
+    padding-left: 70px;
+    padding-right: 20px;
+    margin: 0px;
+    text-align: justify;
+}
+
+#bhd {
+    width: 385px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 70px;
+    padding-right: 20px;
+    margin: 0px;
+    text-align: justify;
+}
+
+/*Turismo*/
+/*fondo*/
+#fondo2 {
+    width: 1000px;
+    margin: auto;
+    background-image: url(../fondos/fondo2.png);
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 6;
+    top: -300px;
+    height: 1220px;
+}
+
+/*titulo*/
+#turismo {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 32px;
+    color: #49c9d4;
+}
+
+/*imagen turismo*/
+#imt {
+    display: inline;
+    position: relative;
+    left: 169px;
+}
+
+/*parrafo turismo*/
+#pt {
+    color: white;
+    text-align: justify;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: 17px;
+}
+
+/*Fondo debajo de gastronomia*/
+#fondo3 {
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    z-index: 3;
+    position: relative;
+    top: -450px;
+    color: #334F5A;
+    height: 1200px;
+}
+
+/*titulo*/
+#gastronomia {
+
+    display: inline-block;
+    position: relative;
+    margin-top: 130px;
+    margin-left: 285px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 34px;
+    color: #334F5A;
+    border: #334F5A solid 4px;
+}
+
+/*parrafos*/
+h3 {
+    font-size: 22px;
+    text-transform: capitalize;
+    padding-left: 70px;
+    display: inline-block;
+    width: 500px;
+}
+
+#pg1 {
+    font-size: 20px;
+    width: 500px;
+    text-align: justify;
+    padding-left: 70px;
+}
+
+#pg2 {
+    font-size: 20px;
+    width: 860px;
+    text-align: justify;
+    padding-left: 70px;
+    margin-top: -10px;
+}
+
+#pg3 {
+    font-size: 20px;
+    width: 500px;
+    text-align: justify;
+    display: block;
+    padding-right: 70px;
+    margin-top: -10px;
+    float: right;
+}
+
+/*imagen 1*/
+#ig1 {
+    padding-right: 70px;
+    padding-top: 40px;
+    float: right;
+}
+
+/*imagen2*/
+#ig2 {
+    padding-left: 70px;
+    padding-top: 50px;
+    float: left;
+}
+
+/*fondo feria de san sebastian*/
+#fondo4 {
+    background-image: url(../fondos/fondo3.png);
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 20px;
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    top: -500px;
+    z-index: 5;
+}
+
+/*titulo*/
+#fiss {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 37px;
+    color: #49c9d4;
+}
+#fiss:target {
+    padding-top: 150px;
+    position: relative;
+}
+
+/*parrafos*/
+#fp1 {
+    width: 600px;
+    padding-left: 70px;
+    text-align: justify;
+}
+
+#fp2 {
+    width: 500px;
+    text-align: justify;
+    position: relative;
+    padding-right: 70px;
+    float: right;
+    margin-bottom: 2px;
+
+}
+
+.fp3 {
+    width: 860px;
+    padding-top: 30px;
+    padding-right: 70px;
+    padding-left: 70px;
+    text-align: justify;
+    position: relative;
+
+}
+
+#te {
+    font-size: 47px;
+    text-align: right;
+    padding-right: 70px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+
+/*imagenes*/
+#if1 {
+    float: right;
+    padding-right: 70px;
+}
+
+#youtube {
+    padding-top: 55px;
+    padding-left: 70px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.aso {
+    left: 132.5px;
+    position: relative;
+    margin-bottom: -20px;
+}
+
+#if2 {
+    padding-left: 70px;
+    display: inline-block;
+}
+
+#if3 {
+    padding-right: 70px;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+/*mapa*/
+#mapa {
+    position: relative;
+    width: 1000px;
+    top: -530px;
+    margin: auto;
+    margin-bottom: -535px;
+}
+
+/*footer*/
+footer {
+
+    background-color: #49c9d4;
+    width: 1000px;
+    height: 420px;
+    margin: auto;
+    /*border: green 2px solid;*/
+}
+
+#c1 {
+    /*border: solid slateblue 4px;*/
+    /*display: inline-block;*/
+    float: left;
+}
+
+#foto {
+    /*position: relative;*/
+    /*display: inline-block;*/
+    float: left;
+    /* border: orange 3px solid;*/
+    margin-top: 10px;
+
+}
+
+#fuente {
+    background-color: #334F5A;
+    color: white;
+    width: 190px;
+    height: 402px;
+    /*display: inline-block;*/
+    position: relative;
+    float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+    vertical-align: top;
+    font-size: 25px;
+    text-align: justify;
+}
+
+/*iconos de la lista*/
+footer ul li {
+    list-style-type: square;
+}
+
+footer ul li:hover {
+    list-style-type: square;
+    color: #49c9d4;
+}
+
+/*formatos de enlace*/
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #49c9d4;
+
+}
+
+/* datos */
+#nombre {
+    font-size: 40px;
+    padding-left: 10px;
+    color: #334F5A;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#correo {
+    font-size: 19px;
+    color: rgb(57, 66, 70);
+    padding-left: 50px;
+    margin-top: -20px;
+}
+
+.contacto {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(57, 66, 70);
+}
+
+/*redes*/
+#caja {
+    width: 300px;
+}
+
+#tw {
+    display: inline-block;
+    padding-left: 95px;
+}
+
+#ig {
+    display: inline-block;
+    margin-left: 20px;
+    padding-right: 70px;
+}
+#contacto:target {
+    padding-top: 0px;
+    position: relative;
+}
+/*Strong y em*/
+em,
+strong {
+
+    font-style: normal;
+    font-weight: normal;
+}
